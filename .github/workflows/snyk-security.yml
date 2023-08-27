@@ -45,9 +45,14 @@ jobs:
         uses: snyk/actions/setup@806182742461562b67788a64410098c9d9b96adb
 
         # For Snyk Open Source you must first set up the development environment for your application's dependencies
-      - uses: actions/setup-node@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: "18.x"
+          cache: "yarn"
+
+      - name: Install Dependencies
+        run: yarn ci
 
         # Runs Snyk Code (SAST) analysis and uploads result into GitHub.
         # Use || true to not fail the pipeline
