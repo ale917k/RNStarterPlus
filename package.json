@@ -1,9 +1,10 @@
 {
-  "name": "RNStarterPlus",
+  "name": "rnstarterplus",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "ci": "yarn --immutable",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
@@ -31,6 +32,6 @@
     "typescript": "5.2.2"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   }
 }
