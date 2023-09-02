@@ -1,0 +1,8 @@
+.husky
+android/.gradle
+android/app/build
+coverage
+ios/build
+ios/Pods
+ios/Podfile.lock
+yarn.lock
