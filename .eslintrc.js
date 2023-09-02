@@ -12,7 +12,7 @@ module.exports = {
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
-    // "plugin:tailwindcss/recommended",
+    // "pluv gin:tailwindcss/recommended",
     "@react-native",
     "plugin:jest/recommended",
     "plugin:testing-library/react",
