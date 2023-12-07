@@ -1,0 +1,3 @@
+{
+  "**/*.{js,jsx,ts,tsx,html,xml,json,css,md,mdx,yml,yaml,toml}": "yarn format"
+}
